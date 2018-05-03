@@ -1,0 +1,32 @@
+package com.company;
+import java.io.*;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// prompts the user for their first name, last name, and age
+
+        Scanner scanSystemIn = new Scanner(System.in, "UTF-8");
+        System.out.println("\nPlease type in your first name and last name\n");
+        String userInputName = scanSystemIn.next();
+/*
+        System.out.println("\nPlease type in your age\n");
+        int age = scanSystemIn.next();
+
+
+
+*/
+        //System.out.println("Please type in your age");
+
+
+
+
+//WHILE LOOP with only age stuff inside of it, use has next int to check if the user is putting an integer value into it,
+        //collect garbage
+        //tell user they gave you an inappropriate value
+        // if the user does not enter an integer value for their age your program must detect this and loop until the user enters the correct type of value
+          //once you have all of the user data your program will generate a random number between 1 and 100, name it rInt, and then write the user information into a file, named uInfo.txt, "rInt" times
+            //each line in the file will be formatted as <first name> <space> <last name> <space> <age>
+    }
+}
